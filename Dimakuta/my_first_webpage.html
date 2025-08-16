@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>My first webpage</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my first HTML page.">
+    <meta name="keywords" content="HTML, beginner, web development">
+    <meta name="author" content="Charles Asher Dimakuta">
+
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.5;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+
+    <script>
+        function greet() {
+            alert("Hello! Welcome to my page.")
+        }
+    </script>
+    
+
+    </head>
+
+    <body onload="greet()">
+        <h1>My first page</h1>
+        <p>My name is <b>Charles Asher Dimakuta</b>, a <i>second-year</i> student from the College of Information Sciences and Computing!</ps>
+        
+        <h2>My interests</h2>
+        <ul>
+            <li>Gaming</li>
+            <li>Music</li>
+            <li>Reading novels</li>
+            <li>Poetry</li>
+            <li>Essay writing</li>
+        </ul>
+
+        <h3>How to write an essay the way I do</h3>
+        <ol>
+            <li>Develop an opinion based on the topic.</li>
+            <li>Write a draft. It does not need to be perfect.</li>
+            <li>Rewrite the draft. Switch sentences or paragraphs with each other if need be. Do not be afraid to add or remove ideas. </li>
+            <li>Finish the essay. Don't worry too much if you're attending an essay-writing or related competition.</li>
+        </ol>
+        <!-- Nothing to see here.-->
+
+        <p>Catch me at <a href="www.example.com" target="blank">My facebook account</a> if you wish to connect with me.</p>
+
+        <h2>August banger I listen to</h2>
+        <audio controls>
+            <source src="All Time Low - Old ScarsFuture Hearts.mp3" type="audio/mpeg">
+            Incompatible audio element to browser.
+        </audio>
+
+        <h2>Random meme I found</h2>
+        <video width="256" length="360"controls>
+            <source src="meme.mp4" type="video/mp4">
+            Incompatible video type to browser.
+        </video>
+
+        <h2>Book cover of my favorite web novel</h2>
+        <img src="bookcover.jpg" alt="Lord of the Mysteries" width="256">
+
+    <div style="border:1px solid #000; padding:10px; margin-top:10px;">
+    <p>This is a block container using <span style="color:red;">div</span> and <span
+    style="font-weight:bold;">span</span> elements.</p>
+    </div>
+    <h2>Daily routine</h2>
+    
+    <table border="1" cellpadding="5">
+    <tr>
+        <th>Time</th>
+        <th>Routine</th>
+    </tr>
+    <tr>
+        <td>6:00 AM</td>
+        <td>Morning rituals</td>    
+    </tr>
+    <tr>
+        <td>6:40 AM</td>
+        <td>Everything else</td>
+    </tr>
+    </table>
+
+    <h2>Contact Me</h2>
+    <form>
+    <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+    <input type="submit" value="Send">
+    </form>
+        </body>
+</html>
+
